@@ -8,15 +8,23 @@ date: 2022-09-26
 
 import Image from 'next/image'
 
-<Image
-  src="/images/me.jpg"
-  alt="Photo"
-  width={200}
-  height={200}
-  priority
-  className="my-image"
-  style={{ borderRadius: '50%' }}
-/>
+<div
+  style={{
+    borderRadius: '50%',
+    overflow: 'hidden',
+    width: '200px',
+    height: '200px'
+  }}
+>
+  <Image
+    src="/images/me.jpg"
+    alt="Photo"
+    priority
+    className="my-image"
+    width={200}
+    height={200}
+  />
+</div>
 
 Hey, I'm a Full Stack Software Engineer at [Wisflux](https://wisflux.com) and **Founder of Vedik Cyber Forces** (VCF)
 
@@ -34,6 +42,7 @@ Following, the following technologies
 C, C++, Python, Arduino, C#, HTML, SASS, CSS, JavaScript, Java, TypeScript, Firebase, NodeJS, React, Angular, NestJs, Postgres, Prisma, Sequelize
 
 ---
+
 <Image
   src="/images/me2.jpg"
   alt="Photo"
