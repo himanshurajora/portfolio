@@ -2,7 +2,7 @@
 title: The Hundred Things Principal
 date: 2022/06/26
 description: View examples of all possible Markdown options.
-tag: react, javascript
+tag: life, learning, growth, common
 author: You
 ---
 

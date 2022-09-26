@@ -2,7 +2,7 @@
 title: Adding Markdown Editor To Your Website
 date: 2022/06/17
 description: In this blog we will learn how you can integrate a markdown editor to your react website
-tag: web development
+tag: web, javascript, react, common
 author: You
 ---
 
