@@ -1,6 +1,7 @@
 const YEAR = new Date().getFullYear()
 
 export default {
+  titleSuffix: ' - Himanshu Jangid',
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <br />
@@ -18,5 +19,17 @@ export default {
         }
       `}</style>
     </small>
-  )
+  ),
+  logo: (
+    <>
+      <span className="mr-2 font-extrabold hidden md:inline">Himanshu</span>
+      <span className="text-gray-600 font-normal hidden md:inline">
+        Himanshu Jangid's Personal Portfolio
+      </span>
+    </>
+  ),
+  darkMode: true,
+  search: true,
+  footerEditLink: 'Edit this page on GitHub',
+  unstable_stork: true
 }
