@@ -1,6 +1,15 @@
 const YEAR = new Date().getFullYear()
 
 export default {
+  repository: 'https://github.com/himanshurajora/portfolio', // project repo
+  docsRepository: 'https://himy.in', // docs repo
+  branch: 'master', // branch of docs
+  path: '/', // path of docs
+  nextLinks: true,
+  prevLinks: true,
+  search: true,
+  darkMode: true,
+  footerEditOnGitHubLink: true,
   titleSuffix: ' - Himanshu Jangid',
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
@@ -28,8 +37,6 @@ export default {
       </span>
     </>
   ),
-  darkMode: true,
   search: true,
-  footerEditLink: 'Edit this page on GitHub',
   unstable_stork: true
 }
